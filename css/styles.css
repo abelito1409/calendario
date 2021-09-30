@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../assets/fondo.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: repeat;
+}
+
+.main-container{
+    height: 100%;
+    width:100%;
+}
+.title-container{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.actions-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.arrow{
+    height:80px;
+    width:80px;
+    background:darkgrey;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow img{
+    height: 50px;
+    width:50px;
+}
+.arrow:active{
+    background: #027B96;
+}
+.table-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#monday-container{
+    background: #D82545;
+}
+#twesday-container{
+    background: #C24B9A;
+}
+#wednesday-container{
+    background: #7E60BE;
+}
+#thursday-container{
+    background:#345992;
+}
+#friday-container{
+    background: #3E999E;
+}
+#saturday-container{
+    background: #4B9056;
+}
+#sunday-container{
+    background: #C0842A;
+}
+table{
+    border-collapse:collapse;
+}
+tr > th{
+    border:1px solid black;
+    width:120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(209, 209, 209);
+    border:collapse;
+    color: white
+}
+tr > td{
+    border:1px solid black;
+    width:120px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: rgb(209,209, 209);
+}
+tr > td:hover{
+    color:white;
+    background: #4A4A4A;
+    font-weight: bold;
+}
+tr > td:active{
+    background: rgb(2, 123,150);
+}
+
+.aqua{
+    background-color: #027B96;
+    color: white;
+    font-weight: bold;
+}
